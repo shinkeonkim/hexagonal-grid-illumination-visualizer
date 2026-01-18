@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hexagonal Grid Illumination Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>
+          Hexagonal Grid Illumination Visualizer
+          <a href="https://www.acmicpc.net/problem/5547" target="_blank" class="boj-link">BOJ 5547</a>
+        </h1>
+        
+        <div class="controls">
+            <div class="input-section">
+                <label for="grid-input">Grid Data Input (W H \n Data...)</label>
+                <textarea id="grid-input" rows="5" placeholder="8 4
+0 1 0 1 0 1 1 1
+0 1 1 0 0 1 0 0
+1 0 1 0 1 1 1 1
+0 1 1 0 1 0 1 0"></textarea>
+                <div class="button-group">
+                    <button id="load-btn">그리드 데이터 로드</button>
+                    <button id="toggle-coords">좌표 표시 토글</button>
+                </div>
+            </div>
+            
+            <div class="info">
+                <p>좌표 상태: <span id="coord-display" style="font-weight: 600;">활성화</span></p>
+            </div>
+        </div>
+
+        <div class="canvas-wrapper">
+            <canvas id="hex-grid"></canvas>
+        </div>
+    </div>
+    <script src="hex-grid.js"></script>
+</body>
+</html>

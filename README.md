@@ -2,6 +2,9 @@
 
 Canvas 기반의 육각형 그리드 시각화 애플리케이션입니다.
 
+<img width="1256" height="863" alt="image" src="https://github.com/user-attachments/assets/9f145f62-e2e3-42fa-a093-1898b836c81b" />
+
+
 ## 기능
 
 1. **육각형 그리드 렌더링**: 좌표 규칙에 따라 육각형 그리드를 그립니다.
